@@ -1,0 +1,86 @@
+.CardsComment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+}
+.CardSays{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+
+}
+.CommentText{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.CommentImage{
+    img{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        border: 3px solid #930077;
+    }
+}
+@media only screen and (max-width: 1440px){
+    .CardsComment{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        font-family: "Cinzel", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 20px;
+    }
+    .CardSays{
+        margin-top: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 20%;
+        height: 200px;
+    
+    }
+    .CommentImage{
+        img{
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            border: 3px solid #930077;
+        }
+    }
+}
+@media only screen and (max-width: 500px){
+.CommentText{
+    p{
+        font-size: 10px;
+    }
+}
+
+.CardSays{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.CardsComment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}

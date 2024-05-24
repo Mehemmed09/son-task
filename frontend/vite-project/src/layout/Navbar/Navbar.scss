@@ -1,0 +1,27 @@
+.NavbarImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.NavbarList{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+  align-items: center;
+  justify-content: center;
+        li{
+            list-style: none;
+            a{
+                color: #845584;
+text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.OurProducts{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px;
+    h2{
+        font-weight: 400;
+    }
+    p{
+font-size: 15px;
+margin-top: 20px;
+    }
+    span{
+        margin-top: 20px;
+        color: #470039;
+        font-size: 14px;
+    }
+}
+.cards{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}

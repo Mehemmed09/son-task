@@ -1,0 +1,46 @@
+.CarosuelDiv2{
+  height: 400px;
+  margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url(https://preview.colorlib.com/theme/wines/images/hero_2.jpg.webp);
+    p{
+        color: white;
+        font-size: 26px;
+      }
+      h2{
+        font-weight: 800px;
+        color: white;
+        font-size: 76px;
+      }
+}
+@media only screen and (max-width: 435px){
+  .CarosuelDiv2{
+    height: 400px;
+    margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      background-image: url(https://preview.colorlib.com/theme/wines/images/hero_2.jpg.webp);
+      p{
+          color: white;
+          font-size: 14px;
+        }
+        h2{
+          font-weight: 800px;
+          color: white;
+          font-size: 30px;
+        }
+  }
+}

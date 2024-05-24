@@ -1,0 +1,34 @@
+.Card {
+  max-width: 30%;
+}
+.CardImage {
+  img {
+    width: 100%;
+  }
+}
+.CardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.CardText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CardBtn {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+  button {
+    cursor: pointer;
+    padding: 13px 40px;
+    border: none;
+    background-color: blueviolet;
+  }
+}
